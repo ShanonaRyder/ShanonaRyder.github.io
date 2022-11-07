@@ -7,7 +7,7 @@ body{
     text-align:center;
 }
 #right-wheel, #left-wheel{
-    animation: wheel 2s infinite linear;
+    animation: wheel 1.5s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -35,15 +35,15 @@ body{
         transform: rotateX(0deg)
     }
     to{
-        transform: rotateX(15deg)
+        transform: rotateX(16deg)
     }
 }
 
 @keyframes hair{
     from{
-        transform: translateY(0%)
+        transform: translateY(0%) rotateZ(0deg)
     }
     to{
-        transform: translateY(20%)
+        transform: translateY(18%)rotateZ(10deg)
     }
 }
