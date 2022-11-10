@@ -1,8 +1,14 @@
-html,body{
-    height: 90%;
+body{
+    height: 100%;
     width: 100%;
 }
-
+.homepage{
+    background-color: black;
+    background-image: url(images/hp-texture.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0;
+}
 .war-bg{
     background-color: black;
     background-image: url(images/fire-and-smoke.png);
@@ -23,12 +29,6 @@ img{
     height: 100%;
 }
 
-main{
-    height:100vh;
-    width:100vw;
-    position: relative;
-}
-
 .smoke-overlay{
     width: 70vw;
     position: absolute;
@@ -36,6 +36,7 @@ main{
     right: 0;
     z-index: 1;
 }
+
 .sparks{
     width: 100vw;
     position: absolute;
@@ -43,7 +44,8 @@ main{
     left: 0;
     z-index: 1;
 }
-.right-character {
+
+.right-character{
     width: 90vw;
     position: absolute;
     bottom: 0;
@@ -51,7 +53,7 @@ main{
 }
 
 .right-title{
-    width:90vw;
+    width: 90vw;
     position: absolute;
     bottom: 0;
     right: 0;
