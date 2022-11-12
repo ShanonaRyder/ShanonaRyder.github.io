@@ -2,7 +2,8 @@
 
 .homepage{
     background-color: black;
-    margin: 0;
+    display: flex;
+    margin: auto;
     overflow-y: scroll;
 }
 .vertical-menu{
