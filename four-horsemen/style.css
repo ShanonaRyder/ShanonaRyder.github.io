@@ -125,8 +125,8 @@ img{
     color:#c4c4c4;
     margin: 0;
     padding-right: 52%;
-    padding-left: 7%;
-    padding-top: 22%;
+    padding-left:10%;
+    padding-top: 20%;
     font-size: 25px;
     line-height: 33px; 
 }
@@ -152,7 +152,7 @@ img{
     z-index: 3;
 }
 .right-character{
-    width: 90vw;
+    width: 85vw;
     position: absolute;
     bottom: 0;
     right: 0;
