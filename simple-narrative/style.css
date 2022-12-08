@@ -29,15 +29,15 @@ h2{
 }
 .cats {
     position: relative;
-    width:240px;
-    height:336px;
+    width:220px;
+    height:308px;
     margin: 5px;
 }
 .cats img{
     opacity: 1;
     display: block;
-    width:240px;
-    height:336px;
+    width:220px;
+    height:308px;
     transition: 5s ease;;
 }
 .overlay {
